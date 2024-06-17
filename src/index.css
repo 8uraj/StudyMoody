@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    
+}
+input{
+
+   
+    outline: none;
+   
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+
+.home_bg{
+    opacity: 2;
+    background-image: url("./assets/Images/bghome.svg");
+   
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
